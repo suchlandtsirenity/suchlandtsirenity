@@ -26,5 +26,6 @@ how it was made, not just the result.
   to break them, and took threadmark from 97% line coverage, with 12 of 22 planted
   bugs going unnoticed, to a 99.1% mutation score.
 
-**Day to day:** TypeScript, React Native / Expo, AWS (Lambda, API Gateway, SQS,
-Cognito), Supabase / Postgres, Rust, Linux servers.
+**Day to day:** TypeScript, React Native / Expo, Redux, GraphQL, AWS (Lambda,
+API Gateway, SQS, DynamoDB, S3, SES, Cognito), Supabase / Postgres, Rust, Linux
+servers.
