@@ -4,8 +4,8 @@ Full-stack developer. For the last three years I've been the only engineer at a
 garment decorator, building the React Native app every outbound order passes
 through, plus the serverless AWS backend, job queues, and internal tools behind it.
 
-I work AI-first with Claude Code. Each project here has a `CLAUDE.md` and a
-build log, so you can see how it was made, not just the result.
+I work AI-first with Claude Code. Each app here has a build log, so you can see
+how it was made, not just the result.
 
 **Projects**
 
@@ -18,9 +18,12 @@ build log, so you can see how it was made, not just the result.
 - [**Sand Tracker**](https://github.com/suchlandtsirenity/sand-tracker):
   phone-first web app on Node's built-in SQLite, self-hosted, with an
   offline-tolerant autosave queue.
+- [**threadmark**](https://github.com/suchlandtsirenity/threadmark):
+  turns a Slack or Discord export into a digest where every sentence cites the
+  messages it came from, and code checks each citation instead of trusting the model.
 - [**Claude Skills**](https://github.com/suchlandtsirenity/claude-skills):
   skills I've written for Claude Code. `paranoid-testing` hardens tests by trying
-  to break them, and took one project from 97% line coverage, with 12 of 22 planted
+  to break them, and took threadmark from 97% line coverage, with 12 of 22 planted
   bugs going unnoticed, to a 99.1% mutation score.
 
 **Day to day:** TypeScript, React Native / Expo, AWS (Lambda, API Gateway, SQS,
