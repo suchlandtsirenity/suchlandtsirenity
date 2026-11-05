@@ -18,6 +18,10 @@ build log, so you can see how it was made, not just the result.
 - [**Sand Tracker**](https://github.com/suchlandtsirenity/sand-tracker):
   phone-first web app on Node's built-in SQLite, self-hosted, with an
   offline-tolerant autosave queue.
+- [**Claude Skills**](https://github.com/suchlandtsirenity/claude-skills):
+  skills I've written for Claude Code. `paranoid-testing` hardens tests by trying
+  to break them, and took one project from 97% line coverage, with 12 of 22 planted
+  bugs going unnoticed, to a 99.1% mutation score.
 
 **Day to day:** TypeScript, React Native / Expo, AWS (Lambda, API Gateway, SQS,
 Cognito), Supabase / Postgres, Rust, Linux servers.
